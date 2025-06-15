@@ -1,0 +1,7 @@
+INIT overseer 100000 10000 authorisation.txt connections.txt layout.txt
+INIT firealarm 50 3 20000 0
+INIT door 101 FAIL_SAFE 10000
+INIT door 102 FAIL_SECURE 10000
+INIT cardreader 103 10000
+SCENARIO
+300000 CARD_SCAN 0 2214a7ba5943d923
